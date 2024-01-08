@@ -2,6 +2,7 @@ package com.spring.selflearning.learnspringframework.game;
 
 import org.springframework.stereotype.Component;
 
+//@Component-->Class managed by Spring framework
 @Component
 public class MarioGame implements GameMovements {
 	
