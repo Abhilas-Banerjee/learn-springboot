@@ -1,6 +1,6 @@
 package com.spring.selflearning.learnspringframework.game;
 
-public class SuperContraGame implements GamingConsole {
+public class SuperContraGame implements GameMovements {
 	
 	public void up() {
 		System.out.println("Jump");

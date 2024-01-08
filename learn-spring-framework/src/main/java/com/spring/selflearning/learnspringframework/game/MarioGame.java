@@ -3,7 +3,7 @@ package com.spring.selflearning.learnspringframework.game;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MarioGame implements GamingConsole {
+public class MarioGame implements GameMovements {
 	
 	
 	public void up() {

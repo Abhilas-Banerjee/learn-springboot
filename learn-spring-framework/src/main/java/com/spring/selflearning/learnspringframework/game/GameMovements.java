@@ -1,6 +1,6 @@
 package com.spring.selflearning.learnspringframework.game;
 
-public interface GamingConsole {
+public interface GameMovements {
 
 	void up();
 	void down();

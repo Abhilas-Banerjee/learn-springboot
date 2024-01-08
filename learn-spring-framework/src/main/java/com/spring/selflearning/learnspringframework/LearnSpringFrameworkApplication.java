@@ -15,10 +15,10 @@ public class LearnSpringFrameworkApplication {
 //		GamingConsole  game=new PacmanGame();
 //		GameRunner runner=new GameRunner(game);
 		GameRunner runner = context.getBean(GameRunner.class);
-		
+		runner.run();
 		System.out.println(context.getBean(com.spring.selflearning.learnspringframework.enterprise.example.web.MyWebController.class).returnValueFromBusinessService());
 		
-		runner.run();
+
 	}
 
 }

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class PacmanGame implements GamingConsole {
+public class PacmanGame implements GameMovements {
 
 	@Override
 	public void up() {
