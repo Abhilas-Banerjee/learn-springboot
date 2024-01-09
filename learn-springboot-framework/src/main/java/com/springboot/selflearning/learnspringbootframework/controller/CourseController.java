@@ -19,6 +19,7 @@ public class CourseController {
 	
 	@RequestMapping("/courses")
 	public List<Course> retrieveAllCourses(){
+		System.out.println("Inside Controller");
 		return Arrays.asList(
 				new Course(1,"Learn AWS","in 28minutes"),
 				new Course(2,"Learn Azure1","in 28minutes"),
